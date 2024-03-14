@@ -1,0 +1,24 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  //!STARTER: use preferd database provider that you want to use
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+//!STARTER: adjust the schema to your needs
+model users {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  email String @unique
+  username String @unique
+  name String
+  password String
+  phoneNumber String?
+}
+
+model authentications {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  token String @unique
+}

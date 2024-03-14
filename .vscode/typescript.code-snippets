@@ -1,0 +1,13 @@
+{
+  //#region  //*=========== Commons ===========
+  "Region": {
+    "prefix": "reg",
+    "scope": "javascript, typescript",
+    "body": [
+      "//#region  //*=========== ${1} ===========",
+      "${TM_SELECTED_TEXT}$0",
+      "//#endregion  //*======== ${1} ===========",
+    ],
+  },
+  //#endregion  //*======== Commons ===========
+}
