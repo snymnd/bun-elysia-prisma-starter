@@ -34,7 +34,7 @@ bun install
 
 #### 3. Start The Server
 
-Start the server with code below
+Start the server with the code below
 
 ```bash
 bun run dev
@@ -42,11 +42,11 @@ bun run dev
 bun dev
 ```
 
-Follow the link that at your terminal or open (http://localhost:3000/api/v1) to see the result.
+Follow the link at your terminal or open http://localhost:5000/api/v1 to see the result.
 
 #### 4. Starter Configuration
 
-Please search for `!STARTER` keyword to find some configuration that you need to adjust.
+Please search for the `!STARTER` keyword to find some configuration you need to adjust.
 
 #### 5. Commit Message Convention
 
